@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LinkedList.h"
+#import "BinaryTree.h"
 
 @interface ViewController : UIViewController
+<UITextFieldDelegate>
+
+@property (strong, nonatomic) LinkedList *list;
+@property (strong, nonatomic) BinaryTree *tree;
+
+@property (weak, nonatomic) IBOutlet UITextField *inputValue;
+@property (weak, nonatomic) IBOutlet UILabel *searchResultLabel;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *treeOrListController;
+@property (weak, nonatomic) IBOutlet UIButton *popButton;
 
 @end

@@ -21,6 +21,10 @@
 		078D653D18BBF39700B50B09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078D651F18BBF39700B50B09 /* UIKit.framework */; };
 		078D654518BBF39700B50B09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 078D654318BBF39700B50B09 /* InfoPlist.strings */; };
 		078D654718BBF39700B50B09 /* LinkedListsandBinaryTreesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D654618BBF39700B50B09 /* LinkedListsandBinaryTreesTests.m */; };
+		078D655218BBF3BC00B50B09 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D655118BBF3BC00B50B09 /* LinkedList.m */; };
+		078D655518BBF3D700B50B09 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D655418BBF3D700B50B09 /* ListNode.m */; };
+		078D655818BC031900B50B09 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D655718BC031900B50B09 /* BinaryTree.m */; };
+		078D655B18BC032A00B50B09 /* BinaryNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D655A18BC032A00B50B09 /* BinaryNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		078D654218BBF39700B50B09 /* LinkedListsandBinaryTreesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LinkedListsandBinaryTreesTests-Info.plist"; sourceTree = "<group>"; };
 		078D654418BBF39700B50B09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		078D654618BBF39700B50B09 /* LinkedListsandBinaryTreesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedListsandBinaryTreesTests.m; sourceTree = "<group>"; };
+		078D655018BBF3BC00B50B09 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkedList.h; path = ../LinkedList.h; sourceTree = "<group>"; };
+		078D655118BBF3BC00B50B09 /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinkedList.m; path = ../LinkedList.m; sourceTree = "<group>"; };
+		078D655318BBF3D700B50B09 /* ListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
+		078D655418BBF3D700B50B09 /* ListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
+		078D655618BC031900B50B09 /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		078D655718BC031900B50B09 /* BinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
+		078D655918BC032A00B50B09 /* BinaryNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryNode.h; sourceTree = "<group>"; };
+		078D655A18BC032A00B50B09 /* BinaryNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +129,14 @@
 				078D652D18BBF39700B50B09 /* Main.storyboard */,
 				078D653018BBF39700B50B09 /* ViewController.h */,
 				078D653118BBF39700B50B09 /* ViewController.m */,
+				078D655618BC031900B50B09 /* BinaryTree.h */,
+				078D655718BC031900B50B09 /* BinaryTree.m */,
+				078D655918BC032A00B50B09 /* BinaryNode.h */,
+				078D655A18BC032A00B50B09 /* BinaryNode.m */,
+				078D655018BBF3BC00B50B09 /* LinkedList.h */,
+				078D655118BBF3BC00B50B09 /* LinkedList.m */,
+				078D655318BBF3D700B50B09 /* ListNode.h */,
+				078D655418BBF3D700B50B09 /* ListNode.m */,
 				078D653318BBF39700B50B09 /* Images.xcassets */,
 				078D652218BBF39700B50B09 /* Supporting Files */,
 			);
@@ -251,7 +271,11 @@
 			files = (
 				078D653218BBF39700B50B09 /* ViewController.m in Sources */,
 				078D652C18BBF39700B50B09 /* AppDelegate.m in Sources */,
+				078D655218BBF3BC00B50B09 /* LinkedList.m in Sources */,
+				078D655518BBF3D700B50B09 /* ListNode.m in Sources */,
+				078D655818BC031900B50B09 /* BinaryTree.m in Sources */,
 				078D652818BBF39700B50B09 /* main.m in Sources */,
+				078D655B18BC032A00B50B09 /* BinaryNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +484,7 @@
 				078D654C18BBF39700B50B09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		078D654D18BBF39700B50B09 /* Build configuration list for PBXNativeTarget "LinkedListsandBinaryTreesTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +493,7 @@
 				078D654F18BBF39700B50B09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
